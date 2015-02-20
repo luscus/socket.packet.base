@@ -6,12 +6,12 @@
   "homepage": "https://github.com/luscus/socket.packet.base",
   "author": "https://github.com/luscus/socket.packet.base/graphs/contributors",
   "bugs": "https://github.com/luscus/socket.packet.base/issues",
-  "description": "A tool collection used by various Application Framework socket libraries",
+  "description": "A packet library wrapping data sended/received by Application Framework sockets",
   "keywords": [
     "network",
     "net",
     "socket",
-    "tools"
+    "packet"
   ],
   "dependencies": {
     "assert-plus": "0.1.5",
