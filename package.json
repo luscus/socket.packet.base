@@ -1,0 +1,40 @@
+{
+  "name": "socket.packet.base",
+  "version": "0.0.2",
+  "license": "MIT",
+  "main": "./lib/socket.packet.base",
+  "homepage": "https://github.com/luscus/socket.packet.base",
+  "author": "https://github.com/luscus/socket.packet.base/graphs/contributors",
+  "bugs": "https://github.com/luscus/socket.packet.base/issues",
+  "description": "A tool collection used by various Application Framework socket libraries",
+  "keywords": [
+    "network",
+    "net",
+    "socket",
+    "tools"
+  ],
+  "dependencies": {
+    "assert-plus": "0.1.5",
+    "node.extend": "1.1.3",
+    "request-ip": "0.0.4",
+    "package.loader": "0.2.2",
+    "deepmerge": "^0.2.7",
+    "prototype-less": "^0.1.2"
+  },
+  "devDependencies": {
+    "grunt": "0.4.5",
+    "grunt-license-report": "0.0.8",
+    "grunt-contrib-jshint": "0.10.0",
+    "grunt-mocha-test": "0.10.2",
+    "load-grunt-tasks": "0.6.0",
+    "chai": "1.9.1",
+    "mocha": "1.21.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:luscus/socket.packet.base.git"
+  },
+  "scripts": {
+    "test": "grunt test"
+  }
+}
