@@ -7,12 +7,10 @@
 
 require('chai').should();
 
-var Packet    = require('../lib/socket.packet.base.js');
+var packets    = require('../lib/socket.packet.base.js');
 
-var packet = new Packet({bla:true}, null);
+var packet = new packets.Packet({test:true}, {uri:'test'});
 
 console.log(packet);
 
 packet.destroy();
-
-console.log(packet);
