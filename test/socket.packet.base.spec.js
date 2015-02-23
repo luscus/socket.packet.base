@@ -14,3 +14,5 @@ var packet = new packets.Packet({test:true}, {uri:'test'});
 console.log(packet);
 
 packet.destroy();
+
+console.log(packet);
