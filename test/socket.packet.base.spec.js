@@ -9,10 +9,10 @@ require('chai').should();
 
 var packets    = require('../lib/socket.packet.base.js');
 
-var packet = new packets.Packet({test:true}, {uri:'test'});
+var packet = new packets.Packet({format: 'packet.format.raw', data:{test:true}}, {uri:'test'});
 
 console.log(packet);
+console.log('-------------------');
+console.log(packet.toString());
+console.log(packet.validate());
 
-packet.destroy();
-
-console.log(packet);
