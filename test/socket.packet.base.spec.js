@@ -18,3 +18,8 @@ console.log(packet.toString());
 console.log(packet.validate());
 console.log(packet.transform('packet.format.raw'));
 
+console.log('-------------------');
+console.log(packets.instantiate({test:true}, {uri:'test'}).id);
+console.log(packets.instantiate({test:true}, {uri:'test'}).id);
+console.log(packets.instantiate({test:true}, {uri:'test'}).id);
+console.log(packets.instantiate({test:true}, {uri:'test'}).id);
