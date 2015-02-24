@@ -7,7 +7,7 @@
 
 require('chai').should();
 
-var packets    = require('../lib/socket.packet.base.js');
+var packets    = require('../lib/socket.packet.base');
 
 //var packet = new packets.instantiate({format: 'packet.format.raw', data:{test:true}}, {uri:'test'});
 var packet = new packets.instantiate({test:true}, {uri:'test'});
