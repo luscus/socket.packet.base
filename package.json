@@ -18,8 +18,8 @@
     "node.extend": "1.1.3",
     "package.loader": "0.2.3",
     "prototype-less": "0.1.2",
-    "hashids": "1.0.1",
-    "package.root": "0.2.0"
+    "package.root": "0.2.0",
+    "node-uuid": "1.4.3"
   },
   "devDependencies": {
     "grunt": "0.4.5",
